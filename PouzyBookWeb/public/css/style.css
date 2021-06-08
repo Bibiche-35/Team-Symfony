@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(228, 228, 228);
+    align-content: center;
+    position: relative;
+}
+.main {
+    color: blue;
+    text-decoration:aqua;
+    font-size: 1.5em;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0vw;
+}
+img {
+    display: flex;
+    justify-content: flex-start;  
+    width: 100px;
+    height: 100px;
+}
+ul {
+    display: flex;
+}
+li {
+    margin-left: 10em;
+}
+li::first-letter {
+    color: #0FA;
+    font-size: 110%;
+}
+.link {
+    color: blue;
+    text-decoration:aqua;
+    font-size: 1.5em;
+}
+.title {
+    display: flex;
+    color: #0FA;
+    font-size: 1.5em;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+    text-decoration:aqua;
+    font-size: 1.8em;
+}
+
+
+.tableau-style  {
+    border-collapse: collapse;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 20px 10px 20px 10px;
+    border: 2px solid midnightblue;
+}
+
+thead tr {
+    background-color: midnightblue;
+    color: #fff;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+/* tbody tr:last-of-type{
+    border-bottom: 2px solid midnightblue;
+} */
+
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+a:active{
+    background-color: #0FA;
+}
+
+
+.myButton {
+    color: rgb(180, 255, 247); 
+    font-size: 17px; 
+    line-height: 17px; 
+    padding: 5px; 
+    border-radius: 4px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+}
+.myButton:hover {
+    background: #1C6EA4; 
+}
+.myButton:active {
+    background: #144E75; 
+}
+
+section {
+    color: rgb(0, 0, 0); 
+    font-size: 17px; 
+    line-height: 17px; 
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 1px solid black;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    text-align: justify;
+    display: inline-block;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    margin: 60px;}
+
+.form-group {
+    color: rgb(0, 0, 0); 
+    font-size: 17px; 
+    line-height: 17px; 
+    padding: 10px; 
+    border-radius: 4px; 
+
+    font-weight: normal;
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    color: rgb(0, 0, 0); 
+    font-size: 17px; 
+    line-height: 17px; 
+    padding: 10px; 
+    border-radius: 4px; 
+
+    font-weight: normal;
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
